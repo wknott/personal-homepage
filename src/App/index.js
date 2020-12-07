@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './theme';
 import { GlobalStyle } from './GlobalStyle';
 import { useDarkMode } from "./useDarkMode"
+import Container from "./Container";
 
 const App = () => {
   const [theme, themeToggler] = useDarkMode();
@@ -13,10 +14,10 @@ const App = () => {
     <ThemeProvider theme={themeMode}>
       <>
         <GlobalStyle />
-        <div>
+        <Container>
           <button onClick={themeToggler}>zmien</button>
           <h1>Homepage</h1>
-        </div>
+        </Container>
       </>
     </ThemeProvider>
   );

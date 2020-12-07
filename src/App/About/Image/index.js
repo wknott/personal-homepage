@@ -11,10 +11,13 @@ export default styled.div`
   background-repeat: no-repeat;
   background-color: ${({ theme }) => theme.color.background};
   transition: all 0.5s linear; 
-  
+  margin-right: 66px;
+  flex-shrink: 0;
+
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     width: 128px;
     height: 128px;
     border-radius: 64px;
+    margin-bottom: 16px;
   };
 `;

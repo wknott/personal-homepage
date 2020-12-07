@@ -6,7 +6,7 @@ const breakpoint = {
 export const lightTheme = {
   color: {
     mainBlue: "#0366D6",
-    body: "#E5E5E5",
+    body: "#FBFBFE",
     text: "#252525",
     secondaryText: "#6E7E91",
     toggleBorder: "#FFFFFF",

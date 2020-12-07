@@ -16,7 +16,7 @@ const App = () => {
       <>
         <GlobalStyle />
         <Container>
-          <About themeToggler={themeToggler} />
+          <About theme={theme} themeToggler={themeToggler} />
         </Container>
       </>
     </ThemeProvider>

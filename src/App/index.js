@@ -16,9 +16,7 @@ const App = () => {
       <>
         <GlobalStyle />
         <Container>
-          <About />
-          <button onClick={themeToggler}>zmien</button>
-          <h1>Homepage</h1>
+          <About themeToggler={themeToggler} />
         </Container>
       </>
     </ThemeProvider>

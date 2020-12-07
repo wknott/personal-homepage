@@ -4,6 +4,7 @@ import { darkTheme, lightTheme } from './theme';
 import { GlobalStyle } from './GlobalStyle';
 import { useDarkMode } from "./useDarkMode"
 import Container from "./Container";
+import About from "./About";
 
 const App = () => {
   const [theme, themeToggler] = useDarkMode();
@@ -15,6 +16,7 @@ const App = () => {
       <>
         <GlobalStyle />
         <Container>
+          <About />
           <button onClick={themeToggler}>zmien</button>
           <h1>Homepage</h1>
         </Container>

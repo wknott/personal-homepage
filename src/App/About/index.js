@@ -3,8 +3,9 @@ import Button from "./Button";
 import Image from "./Image";
 import Info from "./Info";
 import { Wrapper } from "./styled";
+import ThemeButton from "./ThemeButton";
 
-const About = ({ themeToggler }) => {
+const About = ({ theme, themeToggler }) => {
 
   return (
     <Wrapper>
@@ -15,7 +16,7 @@ const About = ({ themeToggler }) => {
         description="⚛️ I'm React Frontend Developer. Rubik's Cube is my biggest passion."
         extraContent={<Button />}
       />
-      <button onClick={themeToggler}>zmien</button>
+      <ThemeButton theme={theme} themeToggler={themeToggler} />
     </Wrapper>
   )
 };

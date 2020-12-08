@@ -15,6 +15,13 @@ export default styled.div`
   margin-right: 66px;
   flex-shrink: 0;
 
+  @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
+    width: 256px;
+    height: 256px;
+    border-radius: 128px;
+    margin-right: 48px;
+  };
+
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     width: 128px;
     height: 128px;

@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const StyledInfo = styled.div`
   grid-area: info;
   padding-right: 128px;
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
+    padding-right: 0;
+  };
 `;
 
 export const MiniTitle = styled.p`

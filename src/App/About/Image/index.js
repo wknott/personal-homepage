@@ -2,6 +2,7 @@ import styled from "styled-components";
 import profilImage from "./profil-image.png";
 
 export default styled.div`
+  grid-area: image;
   width: 384px;
   height: 384px;
   border-radius: 192px;
@@ -19,5 +20,6 @@ export default styled.div`
     height: 128px;
     border-radius: 64px;
     margin-bottom: 16px;
+    margin-top: 13px;
   };
 `;

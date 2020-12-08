@@ -1,13 +1,13 @@
 import React from "react";
-import { Description, MiniTitle, Title } from "./styled";
+import { Description, MiniTitle, StyledInfo, Title } from "./styled";
 
 const Info = ({ miniTitle, title, description, extraContent }) => (
-  <section>
+  <StyledInfo>
     <MiniTitle>{miniTitle}</MiniTitle>
     <Title>{title}</Title>
     <Description>{description}</Description>
     {extraContent}
-  </section>
+  </StyledInfo>
 );
 
 export default Info;

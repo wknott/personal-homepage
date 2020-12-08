@@ -1,10 +1,16 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  display: flex;
+  display: grid;
   align-items: center;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: 
+    "image button"
+    "image info";
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    flex-wrap: wrap;
+    grid-template-areas: 
+      "image button"
+      "info info";
   };
 `;

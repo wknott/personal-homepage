@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const StyledInfo = styled.div`
+  grid-area: info;
+  padding-right: 128px;
+`;
+
 export const MiniTitle = styled.p`
   font-weight: bold;
   font-size: 12px;

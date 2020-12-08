@@ -1,11 +1,15 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-  align-self: flex-start;
+  grid-area: button;
+  justify-self: flex-end;
   display: flex;
   align-items: center;
   position: relative;
-  margin-left: -31px;
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    align-self: start;
+  }
 `;
 
 export const Button = styled.button`

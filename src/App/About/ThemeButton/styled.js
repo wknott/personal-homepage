@@ -24,6 +24,7 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   overflow: hidden;
+  cursor: pointer;
 `;
 
 export const Background = styled.div`

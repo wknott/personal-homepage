@@ -6,6 +6,11 @@ export const StyledSection = styled.section`
   border-radius: 4px;
   padding: 32px;
   margin-top: 73px;
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    padding: 16px;
+    margin-top: 48px;
+  }
 `;
 
 export const SectionHeader = styled.h2`
@@ -16,4 +21,10 @@ export const SectionHeader = styled.h2`
   margin: 0;
   padding-bottom: 15px;
   border-bottom: 1px solid ${({ theme }) => theme.color.divider};
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 12px;
+  }
 `;

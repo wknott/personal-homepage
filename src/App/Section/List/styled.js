@@ -8,10 +8,12 @@ export const StyledList = styled.ul`
   grid-template-columns: repeat(3, auto);
   justify-content: space-between;
   grid-row-gap: 8px;
-  grid-auto-flow: row;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-flow: row;
+  margin-bottom: 0;
+  
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    grid-template-columns: 1fr;
+    margin-top: 12px;
+  }
 `;
 
 export const ListItem = styled.li`
@@ -21,6 +23,11 @@ export const ListItem = styled.li`
   font-size: 18px;
   line-height: 140%;
   letter-spacing: 0.05em;
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 14px;
+    line-height: 17px;
+  }
 `;
 
 export const Bullet = styled.div`
@@ -29,4 +36,11 @@ export const Bullet = styled.div`
   border-radius: 4.5px;
   background-color: ${({ theme }) => theme.color.mainBlue};
   margin-right: 16px;
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    margin-right: 8px;
+  }
 `;

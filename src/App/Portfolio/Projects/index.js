@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getProjects } from "../../getProjects";
+import ProjectTile from "./ProjectTile";
 import { ProjectsContainer } from "./styled";
 
 const Projects = () => {
@@ -30,7 +31,7 @@ const Projects = () => {
       return (
         <ProjectsContainer>
           {projects.map(project =>
-            <li key={project.id}>{project.name}</li>
+            <ProjectTile key={project.id} project={project} />
           )}
         </ProjectsContainer>
       );

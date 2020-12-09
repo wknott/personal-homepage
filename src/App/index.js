@@ -7,6 +7,7 @@ import Container from "./Container";
 import About from "./About";
 import Section from "./Section";
 import { skills, futureSkills } from "./skills";
+import Portfolio from "./Portfolio";
 
 const App = () => {
   const [theme, themeToggler] = useDarkMode();
@@ -21,6 +22,7 @@ const App = () => {
           <About theme={theme} themeToggler={themeToggler} />
           <Section header="My skillset includes 🛠️" skills={skills} />
           <Section header="What I want to learn next 🚀" skills={futureSkills} />
+          <Portfolio />
         </Container>
       </>
     </ThemeProvider>

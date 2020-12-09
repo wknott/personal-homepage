@@ -6,6 +6,7 @@ import { useDarkMode } from "./useDarkMode"
 import Container from "./Container";
 import About from "./About";
 import Section from "./Section";
+import { skills } from "./skills";
 
 const App = () => {
   const [theme, themeToggler] = useDarkMode();
@@ -18,7 +19,7 @@ const App = () => {
         <GlobalStyle />
         <Container>
           <About theme={theme} themeToggler={themeToggler} />
-          <Section header="My skillset includes" />
+          <Section header="My skillset includes" skills={skills} />
         </Container>
       </>
     </ThemeProvider>

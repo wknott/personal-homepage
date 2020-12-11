@@ -17,6 +17,7 @@ export const lightTheme = {
     buttonBackground: "#E5E5E5",
     sectionBackground: "#FFFFFF",
     divider: "rgba(209, 213, 218, 0.3)",
+    tileActiveBorder: "rgba(3, 102, 214, 0.2)",
   },
   breakpoint
 }
@@ -34,6 +35,7 @@ export const darkTheme = {
     buttonBackground: "rgba(54, 54, 54, 0.72)",
     sectionBackground: "rgba(54, 54, 54, 0.72)",
     divider: "rgba(209, 213, 218, 0.1)",
+    tileActiveBorder: "rgba(3, 102, 214, 0.5)",
   },
   breakpoint
 }

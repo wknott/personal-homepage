@@ -5,4 +5,5 @@ export const ProjectsContainer = styled.div`
   grid-template-columns: 1fr 1fr;
   grid-gap: 32px;
   margin-top: 24px;
+  width: 100%;
 `;

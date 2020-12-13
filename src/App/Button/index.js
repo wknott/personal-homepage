@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledButton = styled.button`
+export default styled.button`
   background-color: ${({ theme }) => theme.color.mainBlue};
   color: ${({ theme }) => theme.color.white};
   display: flex;
@@ -32,17 +32,5 @@ export const StyledButton = styled.button`
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;
     line-height: 22px;
-  };
-`;
-
-export const Icon = styled.img`
-  width: 24px;
-  height: 24px;
-  margin-right: 16px;
-
-  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    width: 20px;
-    height: 20px;
-    margin-right: 12px;
   };
 `;

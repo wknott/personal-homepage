@@ -11,6 +11,10 @@ export const Tile = styled.div`
     border: 6px solid ${({ theme }) => theme.color.tileActiveBorder};
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
   }
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
+    padding: 24px;
+  };
 `;
 
 export const Title = styled.h2`
@@ -20,6 +24,12 @@ export const Title = styled.h2`
   line-height: 29px;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.mainBlue};
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 16px;
+  };
 `;
 
 export const Description = styled.p`
@@ -28,15 +38,26 @@ export const Description = styled.p`
   line-height: 140%;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.secondaryText};
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 16px;
+  };
 `;
 
 export const LinkContainer = styled.div`
   display: flex;
+  margin-top: 8px;
 `;
 
 export const LinkLabel = styled(Description)`
   margin: 0 8px 0 0;
   min-width: 60px;
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
+    min-width: 47px;
+  };
 `;
 
 export const Link = styled.a`
@@ -50,5 +71,10 @@ export const Link = styled.a`
 
   &:hover{
     opacity: 1;
-  }
+  };
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
+    font-size: 14px;
+    line-height: 17px;
+  };
 `;

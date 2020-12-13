@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export default styled.button`
+export default styled.a`
   background-color: ${({ theme }) => theme.color.mainBlue};
   color: ${({ theme }) => theme.color.white};
   display: flex;
@@ -15,6 +15,8 @@ export default styled.button`
   border: 1px solid rgba(209, 213, 218, 0.3);
   border-radius: 4px;
   cursor: pointer; 
+  width: max-content;
+  text-decoration: none;
   
   &:hover{
     box-shadow: 

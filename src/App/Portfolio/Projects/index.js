@@ -14,7 +14,7 @@ const Projects = () => {
       try {
         setStatus("loading");
         const projects = await getProjects();
-        setStatus("error");
+        setStatus("sucess");
         setProjects(projects);
       } catch (error) {
         setStatus("error");

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getProjects } from "../../getProjects";
+import Loading from "./Loading";
 import ProjectTile from "./ProjectTile";
 import { ProjectsContainer } from "./styled";
 
@@ -26,7 +27,7 @@ const Projects = () => {
     case "error":
       return <h1>error</h1>;
     case "loading":
-      return <h1>loading</h1>;
+      return <Loading />;
     default:
       return (
         <ProjectsContainer>

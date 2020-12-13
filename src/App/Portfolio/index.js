@@ -5,7 +5,6 @@ import { Container, Header, Icon, Subtitle, Title } from "./styled";
 
 const Portfolio = () => {
 
-
   return (
     <Container>
       <Header>

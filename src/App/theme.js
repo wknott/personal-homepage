@@ -5,6 +5,7 @@ const breakpoint = {
 };
 
 export const lightTheme = {
+  name: "light",
   color: {
     mainBlue: "#0366D6",
     mainBlueFilter: "invert(24%) sepia(78%) saturate(5471%) hue-rotate(203deg) brightness(95%) contrast(98%)",
@@ -25,6 +26,7 @@ export const lightTheme = {
 }
 
 export const darkTheme = {
+  name: "dark",
   color: {
     mainBlue: "#2188FF",
     mainBlueFilter: "invert(47%) sepia(58%) saturate(4738%) hue-rotate(198deg) brightness(102%) contrast(101%)",

@@ -7,9 +7,11 @@ const breakpoint = {
 export const lightTheme = {
   color: {
     mainBlue: "#0366D6",
+    mainBlueFilter: "invert(24%) sepia(78%) saturate(5471%) hue-rotate(203deg) brightness(95%) contrast(98%)",
     blueShadow: "#8CC2FF",
     body: "#FBFBFE",
     text: "#252525",
+    textFilter: "invert(10%) sepia(28%) saturate(0%) hue-rotate(260deg) brightness(99%) contrast(91%)",
     secondaryText: "#6E7E91",
     toggleBorder: "#FFFFFF",
     background: "#6E7E91",
@@ -25,9 +27,11 @@ export const lightTheme = {
 export const darkTheme = {
   color: {
     mainBlue: "#2188FF",
+    mainBlueFilter: "invert(47%) sepia(58%) saturate(4738%) hue-rotate(198deg) brightness(102%) contrast(101%)",
     blueShadow: "#6D93BE",
     body: "#252525",
     text: "#FFFFFF",
+    textFilter: "invert(100%)",
     secondaryText: "#FFFFFF",
     toggleBorder: "#FFFFFF",
     background: "#363537",

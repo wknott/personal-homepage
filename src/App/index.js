@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './theme';
 import { GlobalStyle } from './GlobalStyle';
@@ -8,6 +8,7 @@ import About from "./About";
 import Section from "./Section";
 import { skills, futureSkills } from "./skills";
 import Portfolio from "./Portfolio";
+import Contact from "./Contact";
 
 const App = () => {
   const [theme, themeToggler] = useDarkMode();
@@ -23,6 +24,7 @@ const App = () => {
           <Section header="My skillset includes 🛠️" skills={skills} />
           <Section header="What I want to learn next 🚀" skills={futureSkills} />
           <Portfolio />
+          <Contact />
         </Container>
       </>
     </ThemeProvider>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getProjects } from "../../getProjects";
+import Error from "./Error";
 import Loading from "./Loading";
 import ProjectTile from "./ProjectTile";
 import { ProjectsContainer } from "./styled";
@@ -13,7 +14,7 @@ const Projects = () => {
       try {
         setStatus("loading");
         const projects = await getProjects();
-        setStatus("success");
+        setStatus("error");
         setProjects(projects);
       } catch (error) {
         setStatus("error");
@@ -25,7 +26,7 @@ const Projects = () => {
 
   switch (status) {
     case "error":
-      return <h1>error</h1>;
+      return <Error />;
     case "loading":
       return <Loading />;
     default:

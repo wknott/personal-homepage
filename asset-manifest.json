@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/personal-homepage/static/js/main.7a5b5a8b.chunk.js",
+    "main.js.map": "/personal-homepage/static/js/main.7a5b5a8b.chunk.js.map",
+    "runtime-main.js": "/personal-homepage/static/js/runtime-main.b98fc8c7.js",
+    "runtime-main.js.map": "/personal-homepage/static/js/runtime-main.b98fc8c7.js.map",
+    "static/js/2.d134ebc4.chunk.js": "/personal-homepage/static/js/2.d134ebc4.chunk.js",
+    "static/js/2.d134ebc4.chunk.js.map": "/personal-homepage/static/js/2.d134ebc4.chunk.js.map",
+    "static/js/3.dbf83292.chunk.js": "/personal-homepage/static/js/3.dbf83292.chunk.js",
+    "static/js/3.dbf83292.chunk.js.map": "/personal-homepage/static/js/3.dbf83292.chunk.js.map",
+    "index.html": "/personal-homepage/index.html",
+    "static/js/2.d134ebc4.chunk.js.LICENSE.txt": "/personal-homepage/static/js/2.d134ebc4.chunk.js.LICENSE.txt",
+    "static/media/Facebook_black.14f43e9c.svg": "/personal-homepage/static/media/Facebook_black.14f43e9c.svg",
+    "static/media/Github_black.09abe07d.svg": "/personal-homepage/static/media/Github_black.09abe07d.svg",
+    "static/media/LinkedIN_black.2c26b104.svg": "/personal-homepage/static/media/LinkedIN_black.2c26b104.svg",
+    "static/media/Message.bec00aed.svg": "/personal-homepage/static/media/Message.bec00aed.svg",
+    "static/media/danger-dark.7f2e1977.svg": "/personal-homepage/static/media/danger-dark.7f2e1977.svg",
+    "static/media/danger.a713ca87.svg": "/personal-homepage/static/media/danger.a713ca87.svg",
+    "static/media/dark.4de03ecf.svg": "/personal-homepage/static/media/dark.4de03ecf.svg",
+    "static/media/github.571d1ccb.svg": "/personal-homepage/static/media/github.571d1ccb.svg",
+    "static/media/light.fc30c484.svg": "/personal-homepage/static/media/light.fc30c484.svg",
+    "static/media/profil-image.27e7c252.png": "/personal-homepage/static/media/profil-image.27e7c252.png",
+    "static/media/spinner-dark.d1744388.svg": "/personal-homepage/static/media/spinner-dark.d1744388.svg",
+    "static/media/spinner.88a075cf.svg": "/personal-homepage/static/media/spinner.88a075cf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b98fc8c7.js",
+    "static/js/2.d134ebc4.chunk.js",
+    "static/js/main.7a5b5a8b.chunk.js"
+  ]
+}

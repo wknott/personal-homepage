@@ -5,14 +5,14 @@ const ProjectTile = ({ project }) => (
   <Tile>
     <Title>{project.name}</Title>
     <Description>{project.description}</Description>
-    {project.has_pages &&
+    {project.homepage &&
       <LinkContainer>
         <LinkLabel>Demo:</LinkLabel>
         <Link
-          href={`https://wknott.github.io/${project.name}`}
+          href={project.homepage}
           target="_blank"
         >
-          {`https://wknott.github.io/${project.name}`}
+          {project.homepage}
         </Link>
       </LinkContainer>}
     <LinkContainer>

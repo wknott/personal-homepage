@@ -67,10 +67,15 @@ export const Link = styled.a`
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.mainBlue};
   text-decoration-line: underline;
+  text-underline-offset: 3px;
+  -webkit-text-decoration-color: ${({ theme }) => theme.color.linkUnderline};   
+  text-decoration-color: ${({ theme }) => theme.color.linkUnderline};
   opacity: 0.8;
 
   &:hover{
     opacity: 1;
+    -webkit-text-decoration-color: ${({ theme }) => theme.color.linkUnderlineHover};
+    text-decoration-color: ${({ theme }) => theme.color.linkUnderlineHover};
   };
 
   @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {

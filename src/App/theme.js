@@ -22,6 +22,8 @@ export const lightTheme = {
     divider: "rgba(209, 213, 218, 0.3)",
     tileActiveBorder: "rgba(3, 102, 214, 0.2)",
     projectTitle: "#0366D6",
+    linkUnderline: "rgb(3, 102, 214, 0.2)",
+    linkUnderlineHover: "rgb(3, 102, 214, 0.8)",
   },
   breakpoint
 }
@@ -44,6 +46,8 @@ export const darkTheme = {
     divider: "rgba(209, 213, 218, 0.1)",
     tileActiveBorder: "rgba(3, 102, 214, 0.5)",
     projectTitle: "#FFFFFF",
+    linkUnderline: "rgb(33, 136, 255, 0.4)",
+    linkUnderlineHover: "rgb(33, 136, 255, 0.8)",
   },
   breakpoint
 }

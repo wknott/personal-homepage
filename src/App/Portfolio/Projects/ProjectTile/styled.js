@@ -23,7 +23,7 @@ export const Title = styled.h2`
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.color.mainBlue};
+  color: ${({ theme }) => theme.color.projectTitle};
 
   @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
     font-size: 16px;

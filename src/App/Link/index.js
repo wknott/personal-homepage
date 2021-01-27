@@ -17,6 +17,7 @@ export default styled.a`
   cursor: pointer; 
   width: max-content;
   text-decoration: none;
+  transition: 0.3s linear;
   
   &:hover{
     box-shadow: 

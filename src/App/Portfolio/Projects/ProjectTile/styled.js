@@ -6,6 +6,7 @@ export const Tile = styled.div`
   border: 6px solid ${({ theme }) => theme.color.divider};
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03); 
   border-radius: 4px;
+  transition: 0.3s linear;
 
   &:hover{
     border: 6px solid ${({ theme }) => theme.color.tileActiveBorder};
@@ -71,7 +72,8 @@ export const Link = styled.a`
   -webkit-text-decoration-color: ${({ theme }) => theme.color.linkUnderline};   
   text-decoration-color: ${({ theme }) => theme.color.linkUnderline};
   opacity: 0.8;
-
+  transition: 0.3s linear;
+  
   &:hover{
     opacity: 1;
     -webkit-text-decoration-color: ${({ theme }) => theme.color.linkUnderlineHover};

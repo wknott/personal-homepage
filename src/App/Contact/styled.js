@@ -32,6 +32,7 @@ export const Email = styled.a`
   text-decoration: none;
   color: unset;
   margin-top: 24px;
+  transition: 0.3s linear;
 
   &:hover{
     color: ${({ theme }) => theme.color.mainBlue};
@@ -74,13 +75,14 @@ export const Icon = styled.img`
   width: 48px;
   height: 48px;
   filter: ${({ theme }) => theme.color.textFilter};
+  transition: 0.2s linear;
 
   &:hover{
     filter: ${({ theme }) => theme.color.mainBlueFilter};
   }
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
   };
 `;

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getProjects } from "../../getProjects";
+import { getProjects } from "./getProjects";
 import Error from "./Error";
 import Loading from "./Loading";
 import ProjectTile from "./ProjectTile";

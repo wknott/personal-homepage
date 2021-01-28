@@ -48,7 +48,7 @@ export const Text = styled.span`
   }
 `;
 
-const Icon = styled.div`
+const Icon = styled.span`
   width: 20px;
   height: 20px;
   border-radius: 10px;

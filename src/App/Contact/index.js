@@ -13,7 +13,7 @@ const Contact = () => (
     <SocialContainer>
       {socials.map(social =>
         <Link key={social.id} href={social.url} target="_blank">
-          <Icon src={social.imgUrl} />
+          <Icon src={social.imgUrl} alt={`${social.id} icon`} />
         </Link>
       )}
     </SocialContainer>

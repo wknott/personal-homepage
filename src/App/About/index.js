@@ -17,7 +17,7 @@ const About = ({ theme, themeToggler }) => (
       description={"⚛️ I'm a highly motivated React Frontend Developer, currently looking for new programming experience."}
       extraContent={
         <Link href={`mailto:${email}`}>
-          <Icon width={24} height={24} src={message} />Hire Me
+          <Icon src={message} alt="email icon" />Hire Me
         </Link>
       }
     />

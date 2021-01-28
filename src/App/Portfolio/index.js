@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <Container>
       <Header>
-        <Icon src={github} />
+        <Icon src={github} alt="github logo" />
         <Title>Portfolio</Title>
         <Subtitle>My recent projects</Subtitle>
       </Header>

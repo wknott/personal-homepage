@@ -6,7 +6,7 @@ import { ThemeContext } from 'styled-components';
 
 const Loading = () => {
   const themeContext = useContext(ThemeContext);
-  console.log(themeContext);
+
   return (
     <Wrapper>
       <Subtitle>

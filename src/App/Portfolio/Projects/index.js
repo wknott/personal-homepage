@@ -7,7 +7,7 @@ import { ProjectsContainer } from "./styled";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
-  const [status, setStatus] = useState("initial");
+  const [status, setStatus] = useState("loading");
 
   useEffect(() => {
     const loadProjects = async () => {
@@ -21,22 +21,23 @@ const Projects = () => {
       }
     };
 
-    loadProjects();
+    setTimeout(() => {
+      loadProjects();
+    }, 500);
   }, []);
 
   switch (status) {
     case "error":
       return <Error />;
     case "loading":
-      return <Loading />;
+      return <Loading />
     default:
       return (
-        // <ProjectsContainer>
-        //   {projects.map(project =>
-        //     <ProjectTile key={project.id} project={project} />
-        //   )}
-        // </ProjectsContainer>
-        <Loading />
+        <ProjectsContainer>
+          {projects.map(project =>
+            <ProjectTile key={project.id} project={project} />
+          )}
+        </ProjectsContainer>
       );
   };
 };

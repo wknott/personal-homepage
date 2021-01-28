@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Wrapper, Subtitle, Icon } from "./styled";
+import spinner from "./spinner.svg";
+import spinnerDark from "./spinner-dark.svg";
+import { ThemeContext } from 'styled-components';
 
-
-const Loading = () => (
-  <Wrapper>
-    <Subtitle>
-      Please wait, projects are being loaded…
-    </Subtitle>
-    <Icon />
-  </Wrapper>
-);
+const Loading = () => {
+  const themeContext = useContext(ThemeContext);
+  console.log(themeContext);
+  return (
+    <Wrapper>
+      <Subtitle>
+        Please wait, projects are being loaded…
+      </Subtitle>
+      <Icon src={themeContext.name === "light" ? spinner : spinnerDark} />
+    </Wrapper>
+  );
+};
 
 export default Loading;

@@ -31,11 +31,12 @@ const Projects = () => {
       return <Loading />;
     default:
       return (
-        <ProjectsContainer>
-          {projects.map(project =>
-            <ProjectTile key={project.id} project={project} />
-          )}
-        </ProjectsContainer>
+        // <ProjectsContainer>
+        //   {projects.map(project =>
+        //     <ProjectTile key={project.id} project={project} />
+        //   )}
+        // </ProjectsContainer>
+        <Loading />
       );
   };
 };

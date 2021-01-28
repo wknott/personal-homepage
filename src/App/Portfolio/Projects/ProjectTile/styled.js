@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-export const Tile = styled.div`
+export const Tile = styled.li`
+  list-style-type: none;
   padding: 56px;
   background-color: ${({ theme }) => theme.color.sectionBackground};
   border: 6px solid ${({ theme }) => theme.color.divider};
@@ -18,7 +19,7 @@ export const Tile = styled.div`
   };
 `;
 
-export const Title = styled.h2`
+export const Title = styled.h4`
   margin: 0 0 24px;
   font-weight: bold;
   font-size: 24px;

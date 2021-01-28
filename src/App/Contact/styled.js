@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledInfo = styled.div`
+export const StyledInfo = styled.footer`
   margin-top: 120px;
   width: 55%;
 
@@ -85,4 +85,8 @@ export const Icon = styled.img`
     width: 32px;
     height: 32px;
   };
+`;
+
+export const StyledAddress = styled.address`
+  font-style: unset;
 `;

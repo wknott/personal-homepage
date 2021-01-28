@@ -1,11 +1,22 @@
 import React from "react";
-import { Description, MiniTitle, StyledInfo, Email, SocialContainer, Link, Icon } from "./styled";
+import {
+  Description,
+  MiniTitle,
+  StyledInfo,
+  Email,
+  SocialContainer,
+  Link,
+  Icon,
+  StyledAddress
+} from "./styled";
 import { email, socials } from "./socials";
 
 const Contact = () => (
   <StyledInfo>
     <MiniTitle>Let's talk!</MiniTitle>
-    <Email href={`mailto:${email}`}>{email}</Email>
+    <StyledAddress>
+      <Email href={`mailto:${email}`}>{email}</Email>
+    </StyledAddress>
     <Description>
       I’m always open to new projects.
       If you have any ideas and need some help with a website or web application, feel free to contact me!

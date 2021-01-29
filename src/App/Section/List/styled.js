@@ -21,12 +21,12 @@ export const ListItem = styled.li`
   align-items: center;
   color: ${({ theme }) => theme.color.secondaryText};
   font-size: 18px;
-  line-height: 140%;
+  line-height: 1.4;
   letter-spacing: 0.05em;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.21;
   }
 `;
 

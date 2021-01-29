@@ -16,7 +16,7 @@ export const StyledSection = styled.section`
 export const SectionHeader = styled.h2`
   font-weight: 900;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   letter-spacing: 0.05em;
   margin: 0;
   padding-bottom: 15px;
@@ -24,7 +24,7 @@ export const SectionHeader = styled.h2`
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;
-    line-height: 22px;
+    line-height: 1.22;
     padding-bottom: 12px;
   }
 `;

@@ -23,13 +23,13 @@ export const Title = styled.h4`
   margin: 0 0 24px;
   font-weight: bold;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 1.21;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.projectTitle};
 
   @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     margin-bottom: 16px;
   };
 `;
@@ -37,13 +37,13 @@ export const Title = styled.h4`
 export const Description = styled.p`
   margin: 0 0 24px;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 1.4;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.secondaryText};
 
   @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.21;
     margin-bottom: 16px;
   };
 `;
@@ -65,7 +65,7 @@ export const LinkLabel = styled(Description)`
 export const Link = styled.a`
   word-wrap: anywhere;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 1.4;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.mainBlue};
   text-decoration-line: underline;
@@ -83,6 +83,6 @@ export const Link = styled.a`
 
   @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.21;
   };
 `;

@@ -13,7 +13,7 @@ export const StyledInfo = styled.footer`
 export const MiniTitle = styled.p`
   font-weight: bold;
   font-size: 12px;
-  line-height: 130%;
+  line-height: 1.3;
   text-transform: uppercase;
   color: ${({ theme }) => theme.color.secondaryText};
   margin-top: 0;
@@ -27,7 +27,7 @@ export const MiniTitle = styled.p`
 export const Email = styled.a`
   font-weight: 900;
   font-size: 32px;
-  line-height: 39px;
+  line-height: 1.22;
   letter-spacing: 0.05em;
   text-decoration: none;
   color: unset;
@@ -40,21 +40,21 @@ export const Email = styled.a`
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;
-    line-height: 22px;
+    line-height: 1.22;
     margin-bottom: 16px;
   };
 `;
 
 export const Description = styled.p`
   font-size: 18px;
-  line-height: 140%;
+  line-height: 1.4;
   letter-spacing: 0.05em;
   margin-top: 24px;
   margin-bottom: 0;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.21;
   };
 `;
 

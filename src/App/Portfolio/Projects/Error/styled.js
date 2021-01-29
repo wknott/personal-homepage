@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
 
 export const Text = styled.p`
   font-size: 20px;
-  line-height: 140%;
+  line-height: 1.4;
   letter-spacing: 0.05em;
   margin: 0;
 
@@ -37,14 +37,14 @@ export const Icon = styled.div`
 export const ErrorMessage = styled.h3`
   font-weight: bold;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 1.21;
   text-align: center;
   letter-spacing: 0.05em;
   margin: 16px auto 32px;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
   }
 `;
 

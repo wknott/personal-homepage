@@ -12,7 +12,7 @@ export const StyledInfo = styled.div`
 export const MiniTitle = styled.p`
   font-weight: bold;
   font-size: 12px;
-  line-height: 130%;
+  line-height: 1.3;
   text-transform: uppercase;
   color: ${({ theme }) => theme.color.secondaryText};
   margin-top: 0;
@@ -25,21 +25,21 @@ export const MiniTitle = styled.p`
 export const Title = styled.h1`
   font-weight: 900;
   font-size: 38px;
-  line-height: 46px;
+  line-height: 1.21;
   letter-spacing: 0.05em;
   margin-top: 0;
   margin-bottom: 35px;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 22px;
-    line-height: 27px;
+    line-height: 1.23;
     margin-bottom: 16px;
   };
 `;
 
 export const Description = styled.p`
   font-size: 20px;
-  line-height: 140%;
+  line-height: 1.4;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.secondaryText};
   margin-top: 0;

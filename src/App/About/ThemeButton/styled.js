@@ -37,7 +37,7 @@ export const Background = styled.div`
 export const Text = styled.span`
   font-weight: bold;
   font-size: 12px;
-  line-height: 130%;
+  line-height: 1.3;
   text-transform: uppercase;
   color: ${({ theme }) => theme.color.secondaryText};
   margin-right: 12px;

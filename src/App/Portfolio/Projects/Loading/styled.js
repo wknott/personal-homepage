@@ -13,7 +13,7 @@ export const Subtitle = styled.h3`
   font-weight: normal;
   font-style: normal;
   font-size: 20px;
-  line-height: 140%;
+  line-height: 1.4;
   letter-spacing: 0.05em;
   margin: 8px 0px 0px;
 

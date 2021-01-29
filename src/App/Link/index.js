@@ -10,7 +10,7 @@ export default styled.a`
   padding: 12px 16px;
   font-weight: 600;
   font-size: 20.0584px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.05em;
   border: 1px solid rgba(209, 213, 218, 0.3);
   border-radius: 4px;
@@ -34,6 +34,6 @@ export default styled.a`
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;
-    line-height: 22px;
+    line-height: 1.22;
   };
 `;

@@ -30,7 +30,7 @@ export const Icon = styled.div`
   margin: 0px auto 16px;
   width: 48px;
   height: 48px;
-  background: url(${({ theme }) => theme.name === "light" ? danger : dangerDark});
+  background: url(${({ theme }) => theme.color.body === "#FBFBFE" ? danger : dangerDark});
   background-repeat: no-repeat;
 `;
 

@@ -12,7 +12,7 @@ const Loading = () => {
       <Subtitle>
         Please wait, projects are being loaded…
       </Subtitle>
-      <Icon src={themeContext.name === "light" ? spinner : spinnerDark} />
+      <Icon src={themeContext.color.body === "#FBFBFE" ? spinner : spinnerDark} />
     </Wrapper>
   );
 };

@@ -4,7 +4,7 @@ import Image from "./Image";
 import Info from "./Info";
 import { Wrapper, Icon } from "./styled";
 import ThemeButton from "./ThemeButton";
-import message from "./Message.svg";
+import message from "./message.svg";
 import { email } from "../socials";
 import profileImage from "./profile-image.png";
 

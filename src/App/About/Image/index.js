@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export default styled.img`
   grid-area: image;
   width: 384px;
@@ -8,8 +7,7 @@ export default styled.img`
   border-radius: 50%;
   background-color: ${({ theme }) => theme.color.background};
   transition: background-color 0.5s linear; 
-  margin-right: 66px;
-  flex-shrink: 0;
+  margin-right: 64px;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
     width: 256px;

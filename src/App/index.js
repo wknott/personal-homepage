@@ -11,7 +11,7 @@ import Contact from "./Contact";
 import { Wrapper, Container } from "./styled";
 
 const App = () => {
-  const [themeMode, themeToggler] = useDarkMode();
+  const [themeMode, toggleTheme] = useDarkMode();
 
   const theme = themeMode === 'light' ? lightTheme : darkTheme;
 
@@ -21,7 +21,7 @@ const App = () => {
         <GlobalStyle />
         <Wrapper>
           <Container>
-            <About theme={themeMode} themeToggler={themeToggler} />
+            <About theme={themeMode} toggleTheme={toggleTheme} />
             <Section header="My skillset includes 🛠️" skills={skills} />
             <Section header="What I want to learn next 🚀" skills={futureSkills} />
             <Portfolio />

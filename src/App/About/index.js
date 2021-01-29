@@ -8,7 +8,7 @@ import message from "./Message.svg";
 import { email } from "../Contact/socials";
 import profileImage from "./profile-image.png";
 
-const About = ({ theme, themeToggler }) => (
+const About = ({ theme, toggleTheme }) => (
   <Wrapper>
     <Image src={profileImage} alt="my profile picture" />
     <Info
@@ -21,7 +21,7 @@ const About = ({ theme, themeToggler }) => (
         </Link>
       }
     />
-    <ThemeButton theme={theme} themeToggler={themeToggler} />
+    <ThemeButton theme={theme} toggleTheme={toggleTheme} />
   </Wrapper>
 );
 

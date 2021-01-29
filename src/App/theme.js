@@ -1,6 +1,6 @@
 const breakpoint = {
-  mobileMax: 766,
-  iPad: 1024,
+  mobileMax: 767,
+  iPad: 1023,
   desktopHD: 1366,
 };
 

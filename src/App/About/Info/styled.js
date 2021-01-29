@@ -50,3 +50,14 @@ export const Description = styled.p`
     margin-bottom: 24px;
   };
 `;
+
+export const Icon = styled.img`
+  width: 24px;
+  height: auto;
+  margin-right: 16px;
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    width: 20px;
+    margin-right: 12px;
+  };
+`;

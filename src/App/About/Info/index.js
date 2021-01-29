@@ -1,12 +1,20 @@
 import React from "react";
-import { Description, MiniTitle, StyledInfo, Title } from "./styled";
+import { Description, MiniTitle, StyledInfo, Title, Icon } from "./styled";
+import Link from "../../Link";
+import message from "../message.svg";
+import { email } from "../../socials";
 
-const Info = ({ miniTitle, title, description, extraContent }) => (
+const Info = () => (
   <StyledInfo>
-    <MiniTitle>{miniTitle}</MiniTitle>
-    <Title>{title}</Title>
-    <Description>{description}</Description>
-    {extraContent}
+    <MiniTitle>This is</MiniTitle>
+    <Title>Wojciech Knott</Title>
+    <Description>
+      ⚛️ I'm a highly motivated React Frontend Developer,
+      currently looking for new programming experience.
+    </Description>
+    <Link href={`mailto:${email}`}>
+      <Icon src={message} alt="email icon" />Hire Me
+    </Link>
   </StyledInfo>
 );
 

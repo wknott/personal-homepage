@@ -14,14 +14,3 @@ export const Wrapper = styled.header`
       "info info";
   };
 `;
-
-export const Icon = styled.img`
-  width: 24px;
-  height: auto;
-  margin-right: 16px;
-
-  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    width: 20px;
-    margin-right: 12px;
-  };
-`;

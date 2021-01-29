@@ -11,17 +11,17 @@ import Contact from "./Contact";
 import { Wrapper, Container } from "./styled";
 
 const App = () => {
-  const [theme, themeToggler] = useDarkMode();
+  const [themeMode, themeToggler] = useDarkMode();
 
-  const themeMode = theme === 'light' ? lightTheme : darkTheme;
+  const theme = themeMode === 'light' ? lightTheme : darkTheme;
 
   return (
-    <ThemeProvider theme={themeMode}>
+    <ThemeProvider theme={theme}>
       <>
         <GlobalStyle />
         <Wrapper>
           <Container>
-            <About theme={theme} themeToggler={themeToggler} />
+            <About theme={themeMode} themeToggler={themeToggler} />
             <Section header="My skillset includes 🛠️" skills={skills} />
             <Section header="What I want to learn next 🚀" skills={futureSkills} />
             <Portfolio />

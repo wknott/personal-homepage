@@ -1,6 +1,6 @@
 import React from "react";
 import { ErrorMessage, Icon, Text, Wrapper, StyledLink } from "./styled";
-import { socials } from "../../../Contact/socials";
+import { socials } from "../../../socials";
 
 const Error = () => (
   <Wrapper>

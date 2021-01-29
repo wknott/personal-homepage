@@ -5,7 +5,7 @@ import Info from "./Info";
 import { Wrapper, Icon } from "./styled";
 import ThemeButton from "./ThemeButton";
 import message from "./Message.svg";
-import { email } from "../Contact/socials";
+import { email } from "../socials";
 import profileImage from "./profile-image.png";
 
 const About = ({ theme, toggleTheme }) => (

@@ -9,7 +9,7 @@ import {
   Icon,
   StyledAddress
 } from "./styled";
-import { email, socials } from "./socials";
+import { email, socials } from "../socials";
 
 const Contact = () => (
   <StyledInfo>

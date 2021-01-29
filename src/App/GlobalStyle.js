@@ -11,8 +11,5 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Inter', sans-serif;
-    background: ${({ theme }) => theme.color.body};
-    color: ${({ theme }) => theme.color.text};
-    transition: background 0.5s linear, color 0.5s linear;
   }
 `;

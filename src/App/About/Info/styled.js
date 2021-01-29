@@ -26,7 +26,6 @@ export const Title = styled.h1`
   font-weight: 900;
   font-size: 38px;
   line-height: 1.21;
-  letter-spacing: 0.05em;
   margin-top: 0;
   margin-bottom: 35px;
 
@@ -40,7 +39,6 @@ export const Title = styled.h1`
 export const Description = styled.p`
   font-size: 20px;
   line-height: 1.4;
-  letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.secondaryText};
   margin-top: 0;
   margin-bottom: 32px;

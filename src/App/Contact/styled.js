@@ -28,7 +28,6 @@ export const Email = styled.a`
   font-weight: 900;
   font-size: 32px;
   line-height: 1.22;
-  letter-spacing: 0.05em;
   text-decoration: none;
   color: unset;
   margin-top: 24px;
@@ -48,7 +47,6 @@ export const Email = styled.a`
 export const Description = styled.p`
   font-size: 18px;
   line-height: 1.4;
-  letter-spacing: 0.05em;
   margin-top: 24px;
   margin-bottom: 0;
 

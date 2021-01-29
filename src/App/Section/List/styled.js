@@ -22,7 +22,6 @@ export const ListItem = styled.li`
   color: ${({ theme }) => theme.color.secondaryText};
   font-size: 18px;
   line-height: 1.4;
-  letter-spacing: 0.05em;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;

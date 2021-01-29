@@ -14,7 +14,6 @@ export const Subtitle = styled.h3`
   font-style: normal;
   font-size: 20px;
   line-height: 1.4;
-  letter-spacing: 0.05em;
   margin: 8px 0px 0px;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {

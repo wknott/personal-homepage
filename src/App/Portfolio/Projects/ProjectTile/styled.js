@@ -24,7 +24,6 @@ export const Title = styled.h4`
   font-weight: bold;
   font-size: 24px;
   line-height: 1.21;
-  letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.projectTitle};
 
   @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
@@ -38,7 +37,6 @@ export const Description = styled.p`
   margin: 0 0 24px;
   font-size: 18px;
   line-height: 1.4;
-  letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.secondaryText};
 
   @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
@@ -66,7 +64,6 @@ export const Link = styled.a`
   word-wrap: anywhere;
   font-size: 18px;
   line-height: 1.4;
-  letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.mainBlue};
   text-decoration-line: underline;
   text-underline-offset: 3px;

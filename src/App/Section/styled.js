@@ -17,7 +17,6 @@ export const SectionHeader = styled.h2`
   font-weight: 900;
   font-size: 30px;
   line-height: 1.2;
-  letter-spacing: 0.05em;
   margin: 0;
   padding-bottom: 15px;
   border-bottom: 1px solid ${({ theme }) => theme.color.divider};

@@ -11,7 +11,6 @@ export default styled.a`
   font-weight: 600;
   font-size: 20.0584px;
   line-height: 1.2;
-  letter-spacing: 0.05em;
   border: 1px solid rgba(209, 213, 218, 0.3);
   border-radius: 4px;
   cursor: pointer; 

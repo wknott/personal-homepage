@@ -17,7 +17,6 @@ export const Wrapper = styled.div`
 export const Text = styled.p`
   font-size: 20px;
   line-height: 1.4;
-  letter-spacing: 0.05em;
   margin: 0;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -39,7 +38,6 @@ export const ErrorMessage = styled.h3`
   font-size: 24px;
   line-height: 1.21;
   text-align: center;
-  letter-spacing: 0.05em;
   margin: 16px auto 32px;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {

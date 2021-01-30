@@ -10,19 +10,17 @@ const Projects = () => {
   const [status, setStatus] = useState("loading");
 
   useEffect(() => {
-    const loadProjects = async () => {
-      try {
-        setStatus("loading");
-        const projects = await getProjects();
-        setStatus("sucess");
-        setProjects(projects);
-      } catch (error) {
-        setStatus("error");
-      }
-    };
-
     setTimeout(() => {
-      loadProjects();
+      (async () => {
+        try {
+          setStatus("loading");
+          const projects = await getProjects();
+          setStatus("sucess");
+          setProjects(projects);
+        } catch (error) {
+          setStatus("error");
+        }
+      })();
     }, 500);
   }, []);
 

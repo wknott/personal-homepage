@@ -1,6 +1,6 @@
-import githubIcon from "./Github_black.svg";
-import facebookIcon from "./Facebook_black.svg";
-import linkedinIcon from "./LinkedIN_black.svg";
+import githubIcon from "./githubBlack.svg";
+import facebookIcon from "./facebookBlack.svg";
+import linkedinIcon from "./linkedinBlack.svg";
 
 export const email = "wojciechknott@gmail.com";
 

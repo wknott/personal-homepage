@@ -27,7 +27,7 @@ export const Button = styled.button`
   cursor: pointer;
 
   &:focus {
-    outline: 1px solid ${({ theme }) => theme.color.black};
+    box-shadow: 0 0 8px ${({ theme }) => theme.color.black};
   };
 `;
 
@@ -45,7 +45,6 @@ export const Text = styled.span`
   text-transform: uppercase;
   color: ${({ theme }) => theme.color.secondaryText};
   margin-right: 12px;
-  white-space: nowrap;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     display: none;
@@ -61,19 +60,16 @@ const Icon = styled.span`
   background-position: center;
   background-size: 14px 14px;
   background-color: ${({ theme }) => theme.color.secondaryText};
+  transition: transform 0.5s linear;
 `;
 
 export const LightIcon = styled(Icon)`
-  transition: all 0.5s linear;
-
   ${({ isLight }) => !isLight && css`
     transform: translateX(-25px);
   `}
 `;
 
 export const DarkIcon = styled(Icon)`
-  transition: all 0.5s linear;
-
   ${({ isLight }) => isLight && css`
     transform: translateX(25px);
   `}

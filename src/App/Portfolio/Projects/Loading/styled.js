@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const Wrapper = styled.div`
   margin-top: 88px;
@@ -21,17 +21,18 @@ export const Subtitle = styled.h3`
   }
 `;
 
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+`;
 
 export const Icon = styled.img`
-  @keyframes spinner {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  animation: spinner 1s linear infinite;
+  animation: ${rotate} 1s linear infinite;
   margin: 48px auto 140px;
   width: 160px;
   height: 160px;

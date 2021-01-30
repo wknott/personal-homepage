@@ -4,7 +4,6 @@ import dangerDark from "./danger-dark.svg";
 import Link from "../../../Link";
 
 export const Wrapper = styled.div`
-  margin-top: 88px;
   margin: 88px auto 0;
   text-align: center;
   max-width: 426px;

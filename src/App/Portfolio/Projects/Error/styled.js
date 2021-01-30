@@ -33,7 +33,6 @@ export const Icon = styled.div`
 `;
 
 export const ErrorMessage = styled.h3`
-  font-weight: bold;
   font-size: 24px;
   line-height: 1.21;
   text-align: center;

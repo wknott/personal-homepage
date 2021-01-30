@@ -21,7 +21,6 @@ export const Tile = styled.li`
 
 export const Title = styled.h4`
   margin: 0 0 24px;
-  font-weight: bold;
   font-size: 24px;
   line-height: 1.21;
   color: ${({ theme }) => theme.color.projectTitle};
@@ -61,11 +60,10 @@ export const LinkLabel = styled(Description)`
 `;
 
 export const Link = styled.a`
-  word-wrap: anywhere;
+  overflow-wrap: anywhere;
   font-size: 18px;
   line-height: 1.4;
   color: ${({ theme }) => theme.color.mainBlue};
-  text-decoration-line: underline;
   text-underline-offset: 3px;
   -webkit-text-decoration-color: ${({ theme }) => theme.color.linkUnderline};   
   text-decoration-color: ${({ theme }) => theme.color.linkUnderline};

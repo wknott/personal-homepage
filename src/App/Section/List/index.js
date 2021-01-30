@@ -4,7 +4,7 @@ import { Bullet, ListItem, StyledList } from "./styled";
 const List = ({ items }) => {
   return (
     <StyledList>
-      {items?.map(item =>
+      {items.map(item =>
         <ListItem key={item}>
           <Bullet />{item}
         </ListItem>

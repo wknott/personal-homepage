@@ -28,7 +28,6 @@ export default styled.a`
 
   &:focus{
     box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
-    outline: none;
   }
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {

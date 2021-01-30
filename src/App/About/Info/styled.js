@@ -27,7 +27,7 @@ export const Title = styled.h1`
   font-size: 38px;
   line-height: 1.21;
   margin-top: 0;
-  margin-bottom: 35px;
+  margin-bottom: 36px;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 22px;

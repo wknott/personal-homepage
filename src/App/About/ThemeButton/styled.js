@@ -25,6 +25,10 @@ export const Button = styled.button`
   align-items: center;
   overflow: hidden;
   cursor: pointer;
+
+  &:focus {
+    outline: 1px solid ${({ theme }) => theme.color.black};
+  };
 `;
 
 export const Background = styled.div`

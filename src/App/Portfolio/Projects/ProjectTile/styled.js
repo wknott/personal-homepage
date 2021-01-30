@@ -5,13 +5,13 @@ export const Tile = styled.li`
   padding: 56px;
   background-color: ${({ theme }) => theme.color.sectionBackground};
   border: 6px solid ${({ theme }) => theme.color.divider};
-  box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03); 
+  box-shadow: 0 -2px 50px rgba(9, 10, 51, 0.02), 0 16px 58px rgba(9, 10, 51, 0.03); 
   border-radius: 4px;
   transition: 0.3s linear;
 
   &:hover{
     border: 6px solid ${({ theme }) => theme.color.tileActiveBorder};
-    box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
+    box-shadow: 0 -2px 50px rgba(9, 10, 51, 0.02), 0 16px 58px rgba(9, 10, 51, 0.03);
   }
 
   @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {

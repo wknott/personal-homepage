@@ -6,7 +6,7 @@ export const StyledInfo = styled.footer`
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin-top: 48px;
-    width: 100%;
+    width: unset;
   };
 `;
 
@@ -29,7 +29,7 @@ export const Email = styled.a`
   font-size: 32px;
   line-height: 1.22;
   text-decoration: none;
-  color: unset;
+  color: inherit;
   margin-top: 24px;
   transition: 0.3s linear;
 

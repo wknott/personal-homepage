@@ -11,10 +11,9 @@ export const Wrapper = styled.div`
 
 export const Subtitle = styled.h3`
   font-weight: normal;
-  font-style: normal;
   font-size: 20px;
   line-height: 1.4;
-  margin: 8px 0px 0px;
+  margin: 8px 0 0;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin-top: 16px;

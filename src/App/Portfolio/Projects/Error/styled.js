@@ -5,7 +5,7 @@ import Link from "../../../Link";
 
 export const Wrapper = styled.div`
   margin-top: 88px;
-  margin: 88px auto 0px;
+  margin: 88px auto 0;
   text-align: center;
   max-width: 426px;
 
@@ -26,7 +26,7 @@ export const Text = styled.p`
 
 
 export const Icon = styled.div`
-  margin: 0px auto 16px;
+  margin: 0 auto 16px;
   width: 48px;
   height: 48px;
   background: url(${({ theme }) => theme.color.body === "#FBFBFE" ? danger : dangerDark});

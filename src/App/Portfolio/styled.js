@@ -26,7 +26,7 @@ export const Title = styled.h2`
   font-weight: 900;
   font-size: 30px;
   line-height: 1.2;
-  margin: 12px 0px 0px;
+  margin: 12px 0 0;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;
@@ -36,10 +36,9 @@ export const Title = styled.h2`
 
 export const Subtitle = styled.h3`
   font-weight: normal;
-  font-style: normal;
   font-size: 20px;
   line-height: 1.4;
-  margin: 8px 0px 0px;
+  margin: 8px 0 0;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin-top: 16px;

@@ -1,5 +1,6 @@
 import React from "react";
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from "styled-components";
+import { Normalize } from "styled-normalize";
 import { darkTheme, lightTheme } from './theme';
 import { GlobalStyle } from './GlobalStyle';
 import { useDarkMode } from "./useDarkMode"
@@ -18,6 +19,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <>
+        <Normalize />
         <GlobalStyle />
         <Wrapper>
           <Container>

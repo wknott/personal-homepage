@@ -5,11 +5,11 @@ export const StyledList = styled.ul`
   list-style-type: none;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat( auto-fit, minmax(360px, 1fr) );
   justify-content: space-between;
   grid-row-gap: 8px;
   margin-bottom: 0;
-  
+
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     grid-template-columns: 1fr;
     margin-top: 12px;

@@ -68,7 +68,6 @@ export const Link = styled.a`
   -webkit-text-decoration-color: ${({ theme }) => theme.color.linkUnderline};   
   text-decoration-color: ${({ theme }) => theme.color.linkUnderline};
   opacity: 0.8;
-  transition: 0.3s linear;
   
   &:hover{
     opacity: 1;

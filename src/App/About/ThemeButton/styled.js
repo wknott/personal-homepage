@@ -1,41 +1,24 @@
 import styled, { css } from "styled-components";
+import { ReactComponent as SunIcon } from "./sun.svg";
 
 export const Container = styled.div`
   grid-area: button;
   justify-self: flex-end;
   display: flex;
-  align-items: center;
-  position: relative;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    align-self: start;
+    align-self: flex-start;
   }
 `;
 
 export const Button = styled.button`
-  width: 48px;
-  height: 26px;
-  background: ${({ theme }) => theme.color.buttonBackground};
-  border: 1px solid ${({ theme }) => theme.color.secondaryText};
-  border-radius: 13px;
-  color: ${({ theme }) => theme.color.text};
-  outline: none;
-  padding: 3px;
+  background: none;
+  border: none;
+  color: inherit;
   display: flex;
   align-items: center;
-  overflow: hidden;
   cursor: pointer;
-
-  &:focus {
-    box-shadow: 0 0 8px ${({ theme }) => theme.color.black};
-  };
-`;
-
-export const Background = styled.div`
-  width: 48px;
-  height: 26px;
-  background: ${({ theme }) => theme.color.white};
-  border-radius: 13px;
+  outline-offset: 8px;
 `;
 
 export const Text = styled.span`
@@ -51,26 +34,27 @@ export const Text = styled.span`
   }
 `;
 
-const Icon = styled.span`
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  background-image: url(${({ url }) => url});
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 14px 14px;
-  background-color: ${({ theme }) => theme.color.secondaryText};
-  transition: transform 0.5s linear;
+export const Box = styled.span`
+  width: 48px;
+  background: ${({ theme }) => theme.color.buttonBackground};
+  border: 1px solid;
+  padding: 3px;
+  border-radius: 13px;
+  display: flex;
 `;
 
-export const LightIcon = styled(Icon)`
-  ${({ isLight }) => !isLight && css`
-    transform: translateX(-25px);
+export const IconWrapper = styled.span`
+  background: ${({ theme }) => theme.color.secondaryText};
+  padding: 3px;
+  border-radius: 50%;
+  display: flex;
+  transition: transform 0.3s;
+
+  ${({ moveToRight }) => !moveToRight && css`
+    transform: translate(20px);
   `}
 `;
 
-export const DarkIcon = styled(Icon)`
-  ${({ isLight }) => isLight && css`
-    transform: translateX(25px);
-  `}
+export const Icon = styled(SunIcon)`
+  color: ${({ theme }) => theme.color.themeButtonIcon};
 `;

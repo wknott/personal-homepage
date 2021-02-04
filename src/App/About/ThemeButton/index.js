@@ -1,18 +1,17 @@
 import React from "react";
-import { Background, Button, Container, DarkIcon, LightIcon, Text } from "./styled";
-import light from "./light.svg";
-import dark from "./dark.svg";
+import { Box, Button, Container, Icon, Text, IconWrapper } from "./styled";
 
 const ThemeButton = ({ theme, toggleTheme }) => (
   <Container>
-    <Text>Dark mode {theme === "light" ? "off" : "on"}</Text>
-    <Background>
-      <Button onClick={toggleTheme}>
-        <LightIcon url={light} isLight={theme === "light"} />
-        <DarkIcon url={dark} isLight={theme === "light"} />
-      </Button>
-    </Background>
-  </Container>
-)
+    <Button onClick={toggleTheme}>
+      <Text>Dark mode {theme === "light" ? "off" : "on"}</Text>
+      <Box>
+        <IconWrapper moveToRight={theme === "light"}>
+          <Icon />
+        </IconWrapper>
+      </Box>
+    </Button>
+  </Container >
+);
 
 export default ThemeButton;

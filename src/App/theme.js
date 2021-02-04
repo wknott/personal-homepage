@@ -23,6 +23,7 @@ export const lightTheme = {
     projectTitle: "#0366D6",
     linkUnderline: "rgb(3, 102, 214, 0.2)",
     linkUnderlineHover: "rgb(3, 102, 214, 0.8)",
+    themeButtonIcon: "#FFFFFF",
   },
   breakpoint
 }
@@ -39,13 +40,14 @@ export const darkTheme = {
     toggleBorder: "#FFFFFF",
     background: "#363537",
     white: "#FFFFFF",
-    buttonBackground: "rgba(54, 54, 54, 0.72)",
+    buttonBackground: "#6D6D6D",
     sectionBackground: "rgba(54, 54, 54, 0.72)",
     divider: "rgba(209, 213, 218, 0.1)",
     tileActiveBorder: "rgba(3, 102, 214, 0.5)",
     projectTitle: "#FFFFFF",
     linkUnderline: "rgb(33, 136, 255, 0.4)",
     linkUnderlineHover: "rgb(33, 136, 255, 0.8)",
+    themeButtonIcon: "#252525",
   },
   breakpoint
 }

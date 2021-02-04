@@ -16,7 +16,8 @@ export const MiniTitle = styled.p`
   text-transform: uppercase;
   color: ${({ theme }) => theme.color.secondaryText};
   margin-top: 0;
-
+  letter-spacing: initial;
+  
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin-bottom: 8px;
   };

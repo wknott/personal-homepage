@@ -27,13 +27,12 @@ export const lightTheme = {
   color: {
     primary: colorNames.scienceBlue,
     body: colorNames.whiteLilac,
-    text: colorNames.mineShaft,
+    text: colorNames.slateGray,
     link: {
       text: colorNames.white,
       shadow: colorNames.anakiwa,
     },
     secondaryText: colorNames.slateGray,
-    toggleBorder: colorNames.white,
     background: colorNames.slateGray,
     buttonBackground: colorNames.mercury,
     sectionBackground: colorNames.white,
@@ -56,7 +55,6 @@ export const darkTheme = {
       shadow: colorNames.shipCove,
     },
     secondaryText: colorNames.white,
-    toggleBorder: colorNames.white,
     background: colorNames.shipGray,
     buttonBackground: colorNames.doveGray,
     sectionBackground: colorNames.lighterMineShaft,

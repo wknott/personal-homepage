@@ -14,7 +14,7 @@ export const Container = styled.div`
 export const Button = styled.button`
   background: none;
   border: none;
-  color: inherit;
+  color: ${({ theme }) => theme.color.secondaryText};
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -26,7 +26,6 @@ export const Text = styled.span`
   font-size: 12px;
   line-height: 1.3;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.color.secondaryText};
   margin-right: 12px;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {

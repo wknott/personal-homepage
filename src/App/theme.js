@@ -32,6 +32,10 @@ export const lightTheme = {
       text: colorNames.white,
       shadow: colorNames.anakiwa,
     },
+    themeButton: {
+      iconWrapper: colorNames.mercury,
+      icon: colorNames.white,
+    },
     secondaryText: colorNames.slateGray,
     background: colorNames.slateGray,
     buttonBackground: colorNames.mercury,
@@ -40,7 +44,6 @@ export const lightTheme = {
     tileActiveBorder: colorNames.tropicalBlue,
     projectTitle: colorNames.scienceBlue,
     linkUnderline: colorNames.tropicalBlue,
-    themeButtonIcon: colorNames.white,
   },
   breakpoint
 };
@@ -54,6 +57,10 @@ export const darkTheme = {
       text: colorNames.white,
       shadow: colorNames.shipCove,
     },
+    themeButton: {
+      iconWrapper: colorNames.doveGray,
+      icon: colorNames.mineShaft,
+    },
     secondaryText: colorNames.white,
     background: colorNames.shipGray,
     buttonBackground: colorNames.doveGray,
@@ -62,7 +69,6 @@ export const darkTheme = {
     tileActiveBorder: colorNames.azure,
     projectTitle: colorNames.white,
     linkUnderline: colorNames.wedgeWood,
-    themeButtonIcon: colorNames.mineShaft,
   },
   breakpoint
 };

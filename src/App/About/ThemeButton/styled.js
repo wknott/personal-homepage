@@ -14,7 +14,7 @@ export const Container = styled.div`
 export const Button = styled.button`
   background: none;
   border: none;
-  color: ${({ theme }) => theme.color.secondaryText};
+  color: inherit;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -43,7 +43,7 @@ export const Box = styled.span`
 `;
 
 export const IconWrapper = styled.span`
-  background: ${({ theme }) => theme.color.secondaryText};
+  color: ${({ theme }) => theme.color.themeButton.iconWrapper};
   padding: 3px;
   border-radius: 50%;
   display: flex;
@@ -55,5 +55,5 @@ export const IconWrapper = styled.span`
 `;
 
 export const Icon = styled(SunIcon)`
-  color: ${({ theme }) => theme.color.themeButtonIcon};
+  color: ${({ theme }) => theme.color.themeButton.icon};
 `;

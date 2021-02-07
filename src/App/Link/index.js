@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export default styled.a`
-  background-color: ${({ theme }) => theme.color.mainBlue};
-  color: ${({ theme }) => theme.color.white};
+  background-color: ${({ theme }) => theme.color.primary};
+  color: ${({ theme }) => theme.color.link.text};
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -18,10 +18,10 @@ export default styled.a`
   
   &:hover{
     box-shadow: 
-    2px -2px 0 ${({ theme }) => theme.color.blueShadow}, 
-    -2px 2px 0${({ theme }) => theme.color.blueShadow}, 
-    2px 2px 0 ${({ theme }) => theme.color.blueShadow}, 
-    -2px -2px 0 ${({ theme }) => theme.color.blueShadow};
+    2px -2px 0 ${({ theme }) => theme.color.link.shadow}, 
+    -2px 2px 0${({ theme }) => theme.color.link.shadow}, 
+    2px 2px 0 ${({ theme }) => theme.color.link.shadow}, 
+    -2px -2px 0 ${({ theme }) => theme.color.link.shadow};
   }
 
   &:focus{

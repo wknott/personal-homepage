@@ -21,50 +21,50 @@ const colorNames = {
   tropicalBlue: "#CDE0F7",
   wedgeWood: "#4A73A2",
   azure: "#35669E",
-}
+};
 
 export const lightTheme = {
   color: {
     primary: colorNames.scienceBlue,
-    blueShadow: colorNames.anakiwa,
     body: colorNames.whiteLilac,
     text: colorNames.mineShaft,
+    link: {
+      text: colorNames.white,
+      shadow: colorNames.anakiwa,
+    },
     secondaryText: colorNames.slateGray,
     toggleBorder: colorNames.white,
     background: colorNames.slateGray,
-    white: colorNames.white,
     buttonBackground: colorNames.mercury,
     sectionBackground: colorNames.white,
     divider: colorNames.mercury,
     tileActiveBorder: colorNames.tropicalBlue,
     projectTitle: colorNames.scienceBlue,
     linkUnderline: colorNames.tropicalBlue,
-    linkUnderlineHover: colorNames.scienceBlue,
     themeButtonIcon: colorNames.white,
   },
   breakpoint
-}
-
-
+};
 
 export const darkTheme = {
   color: {
     primary: colorNames.dodgerBlue,
-    blueShadow: colorNames.shipCove,
     body: colorNames.mineShaft,
     text: colorNames.white,
+    link: {
+      text: colorNames.white,
+      shadow: colorNames.shipCove,
+    },
     secondaryText: colorNames.white,
     toggleBorder: colorNames.white,
     background: colorNames.shipGray,
-    white: colorNames.white,
     buttonBackground: colorNames.doveGray,
     sectionBackground: colorNames.lighterMineShaft,
     divider: colorNames.tundora,
     tileActiveBorder: colorNames.azure,
     projectTitle: colorNames.white,
     linkUnderline: colorNames.wedgeWood,
-    linkUnderlineHover: colorNames.dodgerBlue,
     themeButtonIcon: colorNames.mineShaft,
   },
   breakpoint
-}
+};

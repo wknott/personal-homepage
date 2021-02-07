@@ -14,7 +14,6 @@ export const MiniTitle = styled.p`
   font-size: 12px;
   line-height: 1.3;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.color.secondaryText};
   margin-top: 0;
   letter-spacing: initial;
   
@@ -29,6 +28,7 @@ export const Title = styled.h1`
   line-height: 1.21;
   margin-top: 0;
   margin-bottom: 36px;
+  color: ${({ theme }) => theme.color.title};
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 22px;
@@ -40,7 +40,6 @@ export const Title = styled.h1`
 export const Description = styled.p`
   font-size: 20px;
   line-height: 1.4;
-  color: ${({ theme }) => theme.color.secondaryText};
   margin-top: 0;
   margin-bottom: 32px;
 

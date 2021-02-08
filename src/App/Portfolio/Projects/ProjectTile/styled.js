@@ -44,12 +44,27 @@ export const Description = styled.p`
   };
 `;
 
-export const LinkContainer = styled.div`
-  display: flex;
-  margin-top: 8px;
+export const Links = styled.dl`
+  display: grid;
+  grid-gap: 8px;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 24px 0 0 0;
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-top: 16px;
+  };
 `;
 
-export const LinkLabel = styled(Description)`
+export const LinkRow = styled.div`
+  display: grid;
+  grid-template-columns: 4em 1fr;
+  margin: 8px 0 0 0;
+`;
+
+export const LinkLabel = styled.dt`
   margin: 0 8px 0 0;
   min-width: 60px;
 
@@ -58,24 +73,21 @@ export const LinkLabel = styled(Description)`
   };
 `;
 
+export const LinkValue = styled.dd`
+  margin: 0;
+`;
+
 export const Link = styled.a`
   overflow-wrap: anywhere;
-  font-size: 18px;
-  line-height: 1.4;
   color: ${({ theme }) => theme.color.primary};
   text-underline-offset: 3px;
   -webkit-text-decoration-color: ${({ theme }) => theme.color.linkUnderline};   
   text-decoration-color: ${({ theme }) => theme.color.linkUnderline};
   opacity: 0.8;
-  
+
   &:hover{
     opacity: 1;
     -webkit-text-decoration-color: unset;
     text-decoration-color: unset;
-  };
-
-  @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
-    font-size: 14px;
-    line-height: 1.21;
   };
 `;

@@ -19,7 +19,6 @@ export const StyledList = styled.ul`
 export const ListItem = styled.li`
   display: flex;
   align-items: center;
-  color: ${({ theme }) => theme.color.secondaryText};
   font-size: 18px;
   line-height: 1.4;
 
@@ -33,7 +32,7 @@ export const Bullet = styled.div`
   width: 9px;
   height: 9px;
   border-radius: 4.5px;
-  background-color: ${({ theme }) => theme.color.mainBlue};
+  background-color: ${({ theme }) => theme.color.primary};
   margin-right: 16px;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {

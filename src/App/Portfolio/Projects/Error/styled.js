@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   margin: 88px auto 0;
   text-align: center;
   max-width: 426px;
+  color: ${({ theme }) => theme.color.title};
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin-top: 48px;

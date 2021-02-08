@@ -43,7 +43,7 @@ export const Box = styled.span`
 `;
 
 export const IconWrapper = styled.span`
-  color: ${({ theme }) => theme.color.themeButton.iconWrapper};
+  background: ${({ theme }) => theme.color.themeButton.iconWrapper};
   padding: 3px;
   border-radius: 50%;
   display: flex;

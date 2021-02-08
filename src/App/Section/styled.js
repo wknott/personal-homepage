@@ -20,7 +20,8 @@ export const SectionHeader = styled.h2`
   margin: 0;
   padding-bottom: 16px;
   border-bottom: 1px solid ${({ theme }) => theme.color.divider};
-
+  color: ${({ theme }) => theme.color.title};
+  
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;
     line-height: 1.22;

@@ -10,6 +10,7 @@ export const Container = styled.section`
 
 export const Header = styled.header`
   text-align: center;
+  color: ${({ theme }) => theme.color.title};
 `;
 
 export const Icon = styled.img`

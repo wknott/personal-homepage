@@ -15,7 +15,6 @@ export const MiniTitle = styled.p`
   font-size: 12px;
   line-height: 1.3;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.color.secondaryText};
   margin-top: 0;
   margin-bottom: 24px;
 
@@ -32,9 +31,10 @@ export const Email = styled.a`
   color: inherit;
   margin-top: 24px;
   transition: 0.3s linear;
+  color: ${({ theme }) => theme.color.title};
 
   &:hover{
-    color: ${({ theme }) => theme.color.mainBlue};
+    color: ${({ theme }) => theme.color.primary};
   }
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -49,6 +49,7 @@ export const Description = styled.p`
   line-height: 1.4;
   margin-top: 24px;
   margin-bottom: 0;
+  color: ${({ theme }) => theme.color.title};
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;
@@ -72,11 +73,10 @@ export const Link = styled.a`
 export const Icon = styled.img`
   width: 48px;
   height: 48px;
-  filter: ${({ theme }) => theme.color.textFilter};
   transition: 0.2s linear;
 
   &:hover{
-    filter: ${({ theme }) => theme.color.mainBlueFilter};
+    filter: ${({ theme }) => theme.color.primaryFilter};
   }
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {

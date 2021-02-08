@@ -36,7 +36,6 @@ export const Description = styled.p`
   margin: 0 0 24px;
   font-size: 18px;
   line-height: 1.4;
-  color: ${({ theme }) => theme.color.secondaryText};
 
   @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {
     font-size: 14px;
@@ -63,7 +62,7 @@ export const Link = styled.a`
   overflow-wrap: anywhere;
   font-size: 18px;
   line-height: 1.4;
-  color: ${({ theme }) => theme.color.mainBlue};
+  color: ${({ theme }) => theme.color.primary};
   text-underline-offset: 3px;
   -webkit-text-decoration-color: ${({ theme }) => theme.color.linkUnderline};   
   text-decoration-color: ${({ theme }) => theme.color.linkUnderline};
@@ -71,8 +70,8 @@ export const Link = styled.a`
   
   &:hover{
     opacity: 1;
-    -webkit-text-decoration-color: ${({ theme }) => theme.color.linkUnderlineHover};
-    text-decoration-color: ${({ theme }) => theme.color.linkUnderlineHover};
+    -webkit-text-decoration-color: unset;
+    text-decoration-color: unset;
   };
 
   @media(max-width: ${({ theme }) => theme.breakpoint.iPad}px) {

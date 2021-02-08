@@ -12,7 +12,7 @@ const Info = () => (
       ⚛️ I'm a highly motivated React Frontend Developer,
       currently looking for new programming experience.
     </Description>
-    <Link href={`mailto:${email}`}>
+    <Link href={`mailto:${email}`} title={email}>
       <Icon src={message} alt="email icon" />Hire Me
     </Link>
   </StyledInfo>

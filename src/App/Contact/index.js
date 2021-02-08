@@ -15,7 +15,7 @@ const Contact = () => (
   <StyledInfo>
     <MiniTitle>Let's talk!</MiniTitle>
     <StyledAddress>
-      <Email href={`mailto:${email}`}>{email}</Email>
+      <Email href={`mailto:${email}`} title={email}>{email}</Email>
     </StyledAddress>
     <Description>
       I’m always open to new projects.
@@ -24,7 +24,7 @@ const Contact = () => (
     <SocialContainer>
       {socials.map(social =>
         <Link key={social.id} href={social.url} target="_blank">
-          <Icon src={social.imgUrl} alt={`${social.id} icon`} />
+          <Icon src={social.imgUrl} alt={`${social.id} icon`} title={social.url} />
         </Link>
       )}
     </SocialContainer>

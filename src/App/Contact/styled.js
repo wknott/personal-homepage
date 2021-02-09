@@ -67,22 +67,13 @@ export const SocialContainer = styled.div`
 `;
 
 export const Link = styled.a`
+  color: ${({ theme }) => theme.color.title};
   margin-right: 24px;
-`;
-
-export const Icon = styled.img`
-  width: 48px;
-  height: 48px;
-  transition: 0.2s linear;
+  transition: color 0.3s;
 
   &:hover{
-    filter: ${({ theme }) => theme.color.primaryFilter};
+    color: ${({ theme }) => theme.color.primary};
   }
-
-  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    width: 32px;
-    height: 32px;
-  };
 `;
 
 export const StyledAddress = styled.address`

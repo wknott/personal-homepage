@@ -22,9 +22,9 @@ const Contact = () => (
       If you have any ideas and need some help with a website or web application, feel free to contact me!
     </Description>
     <SocialContainer>
-      {socials.map(social =>
-        <Link key={social.id} href={social.url} target="_blank">
-          <Icon src={social.imgUrl} alt={`${social.id} icon`} title={social.url} />
+      {socials.map(({ id, url, Icon }) =>
+        <Link key={id} href={url} target="_blank" title={url}>
+          <Icon />
         </Link>
       )}
     </SocialContainer>

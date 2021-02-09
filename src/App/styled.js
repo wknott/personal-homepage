@@ -20,3 +20,11 @@ export const Container = styled.main`
     width: calc(100% - 2 * 16px);
   };
 `;
+
+export const styleIcon = Icon => styled(Icon)`
+  height: auto;
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    width: 32px;
+  }
+`;

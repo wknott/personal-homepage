@@ -10,7 +10,7 @@ const Info = () => (
     <Title>Wojciech Knott</Title>
     <Description>
       ⚛️ I'm a highly motivated React Frontend Developer,
-      currently looking for new programming experience.
+      currently&nbsp;looking for new programming experience.
     </Description>
     <Link href={`mailto:${email}`} title={email}>
       <Icon src={message} alt="email icon" />Hire Me

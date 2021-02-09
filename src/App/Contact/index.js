@@ -19,7 +19,7 @@ const Contact = () => (
     </StyledAddress>
     <Description>
       I’m always open to new projects.
-      If you have any ideas and need some help with a website or web application, feel free to contact me!
+      If you have&nbsp;any ideas and need some help with a&nbsp;website or web application, feel&nbsp;free to&nbsp;contact&nbsp;me!
     </Description>
     <SocialContainer>
       {socials.map(({ id, url, Icon }) =>

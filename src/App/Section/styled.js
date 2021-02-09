@@ -24,7 +24,8 @@ export const SectionHeader = styled.h2`
   
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;
-    line-height: 1.22;
+    line-height: 1.2;
     padding-bottom: 12px;
+    letter-spacing: 0;
   }
 `;

@@ -1,30 +1,23 @@
 import React, { useEffect, useState } from "react";
-import { getProjects } from "./getProjects";
 import Error from "./Error";
 import Loading from "./Loading";
 import ProjectTile from "./ProjectTile";
 import { ProjectsContainer } from "./styled";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchProjects, selectProjects, selectStatus } from "./projectsSlice";
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
-  const [status, setStatus] = useState("loading");
+  const projects = useSelector(selectProjects);
+  const status = useSelector(selectStatus);
+  const dispatch = useDispatch();
 
   useEffect(() => {
-    setTimeout(() => {
-      (async () => {
-        try {
-          setStatus("loading");
-          const projects = await getProjects();
-          setStatus("sucess");
-          setProjects(projects);
-        } catch (error) {
-          setStatus("error");
-        }
-      })();
-    }, 500);
+    dispatch(fetchProjects());
   }, []);
 
   switch (status) {
+    case "initial":
+      return <></>
     case "error":
       return <Error />;
     case "loading":

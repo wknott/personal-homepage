@@ -5,7 +5,7 @@ import { darkTheme, lightTheme } from './theme';
 import { GlobalStyle } from './GlobalStyle';
 import About from "./About";
 import Section from "./Section";
-import { skills, futureSkills } from "./skills";
+import { futureSkills, professionalSkills, projectSkills } from "./skills";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import { Wrapper, Container } from "./styled";
@@ -23,7 +23,8 @@ const App = () => {
         <Wrapper>
           <Container>
             <About />
-            <Section header="My skillset includes 🛠️" skills={skills} />
+            <Section header="My professional skillset includes 💻" skills={professionalSkills} />
+            <Section header="My project skillset includes 🛠️" skills={projectSkills} />
             <Section header="What I want to learn next 🚀" skills={futureSkills} />
             <Portfolio />
             <Contact />

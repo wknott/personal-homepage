@@ -3,7 +3,7 @@ import Image from "./Image";
 import Info from "./Info";
 import { Wrapper } from "./styled";
 import ThemeButton from "./ThemeButton";
-import profileImage from "./profile-image.png";
+import profileImage from "./profile-image.jpg";
 
 const About = ({ theme, toggleTheme }) => (
   <Wrapper>

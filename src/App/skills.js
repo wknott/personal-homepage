@@ -1,34 +1,39 @@
 export const professionalSkills = [
+  "TypeScript",
+  // eslint-disable-next-line
   "JavaScript: ES6+ features",
   "React",
   "Redux (Toolkit)",
   "Redux-Saga",
+  "Redux-Thunk",
   "React Router",
   "React Hooks",
   "React Context",
+  "Scss",
   "Styled-components",
   "Responsive Web Design",
   "CSS Grid",
   "CSS Flexbox",
   "Leaflet",
-  "PHP 7.x",
-  "Symfony 4.x",
-  "Doctrine",
-  "MySQL",
-  "Twig",
   "E-commerce",
   "Semantic & accessible HTML",
   "LocalStorage",
   "Teamwork",
-  "Immutbility",
+  "Immutability",
   "Error handling",
-  "Working with API (fetch,axios)",
+  "Working with API (fetch, axios)",
   // eslint-disable-next-line
   "Promises, Async/Await",
   "Git",
   "Bitbucket",
   "Trello",
-  "NPM",
+  "NPM, yarn",
+  "AWS: Amplify",
+  "PHP 7.x",
+  "Symfony 4.x",
+  "Doctrine",
+  "MySQL",
+  "Twig",
 ];
 
 export const projectSkills = [
@@ -41,11 +46,13 @@ export const projectSkills = [
   "Express",
   "MongoDB (Mongoose)",
   "JWT",
-  "Yarn",
 ];
 
 export const futureSkills = [
-  "TypeScript",
   "Jest",
+  "React Query",
   "Next.js",
+  "Web Sockets",
+  "Server-side rendering",
+  "GraphQL",
 ];

@@ -9,8 +9,8 @@ const Info = () => (
     <MiniTitle>This is</MiniTitle>
     <Title>Wojciech Knott</Title>
     <Description>
-      ⚛️ I'm a highly motivated Fullstack Web Developer,<br />
-      with more than one year professional experience,<br />
+      ⚛️ I'm a highly motivated Web Developer,<br />
+      with two years of professional experience,<br />
       currently looking for new programming challenge.
     </Description>
     <Link href={`mailto:${email}`} title={email}>

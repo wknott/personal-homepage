@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.76b441a7.chunk.js",
-    "main.js.map": "/personal-homepage/static/js/main.76b441a7.chunk.js.map",
+    "main.js": "/personal-homepage/static/js/main.58245c2c.chunk.js",
+    "main.js.map": "/personal-homepage/static/js/main.58245c2c.chunk.js.map",
     "runtime-main.js": "/personal-homepage/static/js/runtime-main.0db0e337.js",
     "runtime-main.js.map": "/personal-homepage/static/js/runtime-main.0db0e337.js.map",
     "static/js/2.f92a5055.chunk.js": "/personal-homepage/static/js/2.f92a5055.chunk.js",
@@ -10,21 +10,21 @@
     "static/js/3.a663a17a.chunk.js.map": "/personal-homepage/static/js/3.a663a17a.chunk.js.map",
     "index.html": "/personal-homepage/index.html",
     "static/js/2.f92a5055.chunk.js.LICENSE.txt": "/personal-homepage/static/js/2.f92a5055.chunk.js.LICENSE.txt",
-    "static/media/Message.5e558b62.svg": "/personal-homepage/static/media/Message.5e558b62.svg",
-    "static/media/danger-dark.7418206d.svg": "/personal-homepage/static/media/danger-dark.7418206d.svg",
-    "static/media/danger.1d516179.svg": "/personal-homepage/static/media/danger.1d516179.svg",
-    "static/media/facebookBlack.aec029eb.svg": "/personal-homepage/static/media/facebookBlack.aec029eb.svg",
-    "static/media/github.2da5169c.svg": "/personal-homepage/static/media/github.2da5169c.svg",
-    "static/media/githubBlack.cc1df829.svg": "/personal-homepage/static/media/githubBlack.cc1df829.svg",
-    "static/media/linkedinBlack.590b57c4.svg": "/personal-homepage/static/media/linkedinBlack.590b57c4.svg",
-    "static/media/profile-image.27e7c252.png": "/personal-homepage/static/media/profile-image.27e7c252.png",
-    "static/media/spinner-dark.308adbb1.svg": "/personal-homepage/static/media/spinner-dark.308adbb1.svg",
-    "static/media/spinner.f0cf9f6a.svg": "/personal-homepage/static/media/spinner.f0cf9f6a.svg",
-    "static/media/sun.adadcc3b.svg": "/personal-homepage/static/media/sun.adadcc3b.svg"
+    "static/media/Message.bec00aed.svg": "/personal-homepage/static/media/Message.bec00aed.svg",
+    "static/media/danger-dark.7f2e1977.svg": "/personal-homepage/static/media/danger-dark.7f2e1977.svg",
+    "static/media/danger.a713ca87.svg": "/personal-homepage/static/media/danger.a713ca87.svg",
+    "static/media/facebookBlack.7faec27f.svg": "/personal-homepage/static/media/facebookBlack.7faec27f.svg",
+    "static/media/github.571d1ccb.svg": "/personal-homepage/static/media/github.571d1ccb.svg",
+    "static/media/githubBlack.730ae07b.svg": "/personal-homepage/static/media/githubBlack.730ae07b.svg",
+    "static/media/linkedinBlack.f37b03ed.svg": "/personal-homepage/static/media/linkedinBlack.f37b03ed.svg",
+    "static/media/profile-image.af9bb244.jpg": "/personal-homepage/static/media/profile-image.af9bb244.jpg",
+    "static/media/spinner-dark.d1744388.svg": "/personal-homepage/static/media/spinner-dark.d1744388.svg",
+    "static/media/spinner.88a075cf.svg": "/personal-homepage/static/media/spinner.88a075cf.svg",
+    "static/media/sun.fa345c66.svg": "/personal-homepage/static/media/sun.fa345c66.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0db0e337.js",
     "static/js/2.f92a5055.chunk.js",
-    "static/js/main.76b441a7.chunk.js"
+    "static/js/main.58245c2c.chunk.js"
   ]
 }

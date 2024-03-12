@@ -11,7 +11,8 @@ const store = configureStore({
     theme: themeSlice,
     projects: projectsSlice,
   },
-  middleware: [sagaMiddleware],
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(sagaMiddleware),
 });
 
 sagaMiddleware.run(watchFetchProjects);

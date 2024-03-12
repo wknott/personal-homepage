@@ -17,6 +17,7 @@ export const professionalSkills = [
   "Leaflet",
   "E-commerce",
   "Semantic & accessible HTML",
+  "IndexedDB",
   "LocalStorage",
   "Teamwork",
   "Immutability",
@@ -27,6 +28,10 @@ export const professionalSkills = [
   "Git",
   "Bitbucket",
   "Trello",
+  "CSS BEM convention",
+  "Markdown",
+  "GitHub Pull Requests & Review",
+  "Scrum",
   "NPM, yarn",
   "AWS: Amplify",
   "PHP 7.x",
@@ -37,11 +42,10 @@ export const professionalSkills = [
 ];
 
 export const projectSkills = [
-  "React-Bootstrap",
-  "CSS BEM convention",
-  "Markdown",
-  "GitHub Pull Requests & Review",
-  "Scrum",
+  "Next.js",
+  "Tailwind CSS",
+  "React Query",
+  "Jest",
   "Node.js",
   "Express",
   "MongoDB (Mongoose)",
@@ -49,10 +53,7 @@ export const projectSkills = [
 ];
 
 export const futureSkills = [
-  "Jest",
-  "React Query",
-  "Next.js",
-  "Web Sockets",
   "Server-side rendering",
   "GraphQL",
+  "Web Sockets",
 ];

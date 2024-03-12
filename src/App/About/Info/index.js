@@ -3,6 +3,11 @@ import { Description, MiniTitle, StyledInfo, Title, Icon } from "./styled";
 import Link from "../../Link";
 import message from "../Message.svg";
 import { email } from "../../socials";
+import { differenceInYears } from "date-fns";
+
+const START_DATE = new Date("2021-03-01");
+
+const getMyExpirienceYears = () => differenceInYears(new Date(), START_DATE);
 
 const Info = () => (
   <StyledInfo>
@@ -10,7 +15,7 @@ const Info = () => (
     <Title>Wojciech Knott</Title>
     <Description>
       ⚛️ I'm a highly motivated Web Developer,<br />
-      with two years of professional experience,<br />
+      with {getMyExpirienceYears()} years of professional experience,<br />
       currently looking for new programming challenge.
     </Description>
     <Link href={`mailto:${email}`} title={email}>
